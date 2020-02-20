@@ -1,4 +1,4 @@
-def merge_sort(arr):
+def insertion_sort(arr):
  isSorted = None
  while not isSorted:
   isSorted = True
@@ -13,6 +13,6 @@ def merge_sort(arr):
        x-=1
  return arr
 
-print(merge_sort([5,3,1,2,10,5,7,4,5]))
-print(merge_sort([1,2,3]))
-print(merge_sort([3,2,1,4,4,4,10,1000]))
+print(insertion_sort([5,3,1,2,10,5,7,4,5]))
+print(insertion_sort([1,2,3]))
+print(insertion_sort([3,2,1,4,4,4,10,1000]))
