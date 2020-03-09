@@ -1,0 +1,1 @@
+SELECT station.city, station.state FROM station
