@@ -1,35 +1,4 @@
 $(document).ready(function () {
-  const winners = new Set();
-  // $("#submit").on("click", function (e) {
-  //   e.preventDefault();
-  //   e.stopPropagation();
-
-  //   $("#output").show();
-  //   $("#winnerOutput").html("");
-
-  //   //  шибай героите в шибания списък
-  //   let initList = $("#winnersList").val().trim().split("\n");
-  //   const list = [];
-
-  //   // чисти празните
-  //   $(initList).each(function (i, item) {
-  //     item === "" ? (item = "") : list.push(item);
-  //   });
-
-  //   const winnerQty = $("#winnerQty").val();
-  //   const uniqueParticipants = new Set(list);
-  //   if (winnerQty < uniqueParticipants.size) {
-  //     while (winners.size < winnerQty) {
-  //       const index = Math.floor(Math.random() * list.length);
-  //       const winner = list[index];
-  //       winners.add(winner);
-  //     }
-  //     winners.forEach((winner) => {
-  //       $("#winnerOutput").append($("<li>").append(winner));
-  //     });
-  //   }
-  // });
-
   $("#submitInput").on("click", function (e) {
     e.preventDefault();
     e.stopPropagation();
