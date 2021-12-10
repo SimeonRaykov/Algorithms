@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>gold</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./papaparse.min.js"></script>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <body>
+      <div class="container">
+        <div class="row">
+          <h3><br /><br /></h3>
+          <br /><br /><br />
+          <div class="col-sm-12">
+            <form id="myForm">
+              <input type="file" id="csvFile" accept=".csv" />
+              <br />
+              <input id="submitInput" type="submit" value="Submit" />
+            </form>
+            <form id="winnersForm" role="form">
+              <div class="form-group">
+                <div class="row">
+                  <label for="text" class="col-sm-2 control-label"
+                    >Участници:</label
+                  >
+                  <div class="col-sm-9">
+                    <textarea
+                      name="text"
+                      id="winnersList"
+                      class="form-control"
+                      rows="5"
+                    >
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <label for="text" class="col-sm-2 control-label"
+                    >Брой печеливши</label
+                  >
+                  <div class="col-sm-9">
+                    <input
+                      name="number"
+                      id="winnerQty"
+                      class="form-control"
+                      rows="5"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-12">
+            <button class="btn btn-default" id="submit">ИЗТЕГЛИ</button>
+          </div>
+        </div>
+        <div class="row header">
+          <div class="col-sm-12">
+            <div id="output" class="text-primary-override">
+              <h2>Печелившите са:</h2>
+              <ol id="winnerOutput"></ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <!-- partial -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
