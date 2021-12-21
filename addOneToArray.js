@@ -1,7 +1,7 @@
 // Google coding challenge
 // Add one in the array and return a new array
 
-function sumArrayNumbers(arr) {
+function addOneToArray(arr) {
 
     let resultArr = [...arr];
 
