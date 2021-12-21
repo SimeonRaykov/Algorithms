@@ -21,6 +21,6 @@ function addOneToArray(arr) {
 }
 
 
-sumArrayNumbers([9, 9, 9, 8, 9]);
-sumArrayNumbers([2, 3, 4, 9, 9]);
-sumArrayNumbers([9]);
+addOneToArray([9, 9, 9, 8, 9]);
+addOneToArray([2, 3, 4, 9, 9]);
+addOneToArray([9]);
