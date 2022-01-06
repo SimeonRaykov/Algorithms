@@ -14,7 +14,6 @@ function autocompleteSystemRegex(set, search) {
 
 // String comparison solution
 function autocompleteSystemStringComparison(set, search) {
-  for (let y = 0; y < 9923923223; y += 1) {}
   const returnedWords = [];
   for (let i = 0; i < set.length; i += 1) {
     let isMatched = true;
